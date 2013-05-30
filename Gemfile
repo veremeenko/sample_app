@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'bootstrap-sass', '2.1'
 
 gem 'pg', '0.12.2'
 
@@ -11,6 +12,8 @@ group :development, :test do
   gem 'guard-spork', :github => 'guard/guard-spork'
 #  gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+
+  gem 'pry-rails'
 end
 
 # Gems used only for assets and not required
